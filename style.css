@@ -69,3 +69,20 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+/* Small Screens */
+@media (max-width: 500px) {
+  button {
+    width: 15vw;
+    height: 15vw;
+  }
+  #calculator {
+    width: 80vw;
+  }
+  #keys {
+    gap: 5px;
+  }
+  #operator-Equal_sign {
+    height: 50px;
+    margin: 0px 0px 20px 16px;
+  }
+}
